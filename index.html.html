@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Andey Santosh Kumar — MBA (HR & Marketing) | HR Executive</title>
+<meta name="description" content="Portfolio of Andey Santosh Kumar — MBA in HR & Marketing, 1 year HR Executive at Mahathi Infra Services Pvt. Ltd., B.Com Computers from Gowtami Degree College." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --blue-deep: #0a2540;
+    --blue-primary: #1565c0;
+    --blue-mid: #1e88e5;
+    --sky: #4fc3f7;
+    --sky-soft: #e1f5fe;
+    --sky-light: #f0f9ff;
+    --bg: #f0f8ff;
+    --surface: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --line: #dbeafe;
+    --shadow-sm: 0 2px 8px rgba(21, 101, 192, 0.08);
+    --shadow-md: 0 10px 30px rgba(21, 101, 192, 0.14);
+    --radius: 10px;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(79,195,247,.25);
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+  ul { list-style: none; }
+
+  .container { max-width: 1140px; margin: 0 auto; padding: 0 28px; }
+  section { padding: 96px 0; }
+  .section-head { margin-bottom: 56px; }
+  .section-head .eyebrow {
+    display: inline-block; font-size: .78rem; font-weight: 700;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--blue-primary); margin-bottom: 12px;
+  }
+  .section-head h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; font-weight: 700;
+    color: var(--blue-deep); letter-spacing: -0.5px;
+    line-height: 1.2; margin-bottom: 12px;
+  }
+  .section-head .divider {
+    width: 60px; height: 3px;
+    background: linear-gradient(90deg, var(--blue-primary), var(--sky));
+    border-radius: 2px;
+  }
+
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255,255,255,.94);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+    transition: box-shadow .3s ease;
+  }
+  .nav.scrolled { box-shadow: var(--shadow-sm); }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+  }
+  .brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem; font-weight: 700; color: var(--blue-deep);
+    letter-spacing: -0.3px;
+  }
+  .brand span { color: var(--blue-primary); }
+  .nav-links { display: flex; gap: 30px; }
+  .nav-links a {
+    font-size: .9rem; font-weight: 500; color: var(--text);
+    transition: color .2s ease; position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; left: 0; bottom: -6px;
+    width: 0; height: 2px; background: var(--blue-primary);
+    transition: width .3s ease;
+  }
+  .nav-links a:hover { color: var(--blue-primary); }
+  .nav-links a:hover::after { width: 100%; }
+  .nav-toggle {
+    display: none; background: none; border: none; cursor: pointer;
+    font-size: 1.5rem; color: var(--blue-deep);
+    padding: 8px 12px;
+  }
+
+  .hero {
+    background: linear-gradient(160deg, #0a2540 0%, #1565c0 55%, #4fc3f7 130%);
+    color: #fff; padding: 168px 0 110px;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 88% 12%, rgba(79,195,247,.22) 0%, transparent 45%),
+      radial-gradient(circle at 10% 90%, rgba(255,179,0,.12) 0%, transparent 40%);
+    pointer-events: none;
+  }
+  .hero-grid {
+    display: grid; grid-template-columns: 1.6fr 1fr; gap: 70px;
+    align-items: center; position: relative; z-index: 2;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-size: .8rem; font-weight: 500; letter-spacing: 1.8px;
+    text-transform: uppercase; color: var(--sky);
+    margin-bottom: 22px;
+  }
+  .hero-eyebrow::before {
+    content: ''; width: 32px; height: 1px; background: var(--sky);
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem; line-height: 1.12; font-weight: 700;
+    letter-spacing: -1px; margin-bottom: 20px;
+  }
+  .hero h1 .accent { color: var(--sky); }
+  .hero-role {
+    font-size: 1.15rem; font-weight: 400;
+    color: rgba(255,255,255,.85); margin-bottom: 10px;
+  }
+  .hero-desc {
+    font-size: 1rem; color: rgba(255,255,255,.72);
+    max-width: 580px; margin-bottom: 34px;
+  }
+  .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 13px 26px; border-radius: 6px;
+    font-size: .92rem; font-weight: 600; letter-spacing: .2px;
+    cursor: pointer; border: 1px solid transparent;
+    transition: all .25s ease;
+    touch-action: manipulation;
+  }
+  .btn-sky { background: var(--sky); color: var(--blue-deep); }
+  .btn-sky:hover {
+    background: #81d4fa; transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(79,195,247,.4);
+  }
+  .btn-ghost { border-color: rgba(255,255,255,.4); color: #fff; }
+  .btn-ghost:hover {
+    background: rgba(255,255,255,.12); border-color: #fff;
+    transform: translateY(-2px);
+  }
+  .btn-linkedin {
+    background: #0a66c2; color: #fff;
+  }
+  .btn-linkedin:hover {
+    background: #004182; transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(10,102,194,.4);
+  }
+
+  .profile-card {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: var(--radius);
+    padding: 40px 32px; text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .monogram {
+    width: 118px; height: 118px; margin: 0 auto 22px;
+    border-radius: 50%;
+    background: linear-gradient(140deg, var(--sky) 0%, #81d4fa 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem; font-weight: 700; color: var(--blue-deep);
+    box-shadow: 0 12px 28px rgba(79,195,247,.35);
+  }
+  .profile-card .name {
+    font-size: 1.15rem; font-weight: 600; margin-bottom: 4px;
+  }
+  .profile-card .title {
+    font-size: .85rem; color: var(--sky);
+    letter-spacing: .5px; margin-bottom: 22px;
+  }
+  .profile-meta {
+    display: flex; flex-direction: column; gap: 12px;
+    padding-top: 22px; border-top: 1px solid rgba(255,255,255,.15);
+  }
+  .profile-meta a, .profile-meta span {
+    font-size: .85rem; color: rgba(255,255,255,.9);
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: color .2s ease;
+    word-break: break-all;
+    padding: 4px 0;
+  }
+  .profile-meta a:hover { color: var(--sky); }
+
+  .about-grid {
+    display: grid; grid-template-columns: 1.35fr 1fr; gap: 60px;
+    align-items: start;
+  }
+  .about-text p {
+    color: var(--text); font-size: 1rem;
+    margin-bottom: 18px; line-height: 1.85;
+  }
+  .about-text p strong { color: var(--blue-deep); font-weight: 600; }
+  .facts {
+    background: var(--surface); border-radius: var(--radius);
+    border: 1px solid var(--line); padding: 8px 0;
+    box-shadow: var(--shadow-sm);
+  }
+  .fact {
+    display: flex; justify-content: space-between; gap: 16px;
+    padding: 16px 24px; border-bottom: 1px solid var(--line);
+    font-size: .9rem;
+  }
+  .fact:last-child { border-bottom: none; }
+  .fact .label { color: var(--muted); font-weight: 500; }
+  .fact .value {
+    color: var(--blue-deep); font-weight: 600; text-align: right;
+  }
+  .fact a.value { color: var(--blue-primary); }
+  .fact a.value:hover { text-decoration: underline; }
+
+  .experience-section { background: var(--surface); }
+  .timeline { position: relative; max-width: 900px; margin: 0 auto; }
+  .timeline::before {
+    content: ''; position: absolute;
+    left: 14px; top: 8px; bottom: 8px;
+    width: 2px; background: linear-gradient(180deg, var(--blue-primary), var(--sky));
+  }
+  .entry { position: relative; padding: 0 0 42px 54px; }
+  .entry:last-child { padding-bottom: 0; }
+  .entry::before {
+    content: ''; position: absolute;
+    left: 6px; top: 6px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--surface);
+    border: 3px solid var(--blue-primary);
+    z-index: 2;
+  }
+  .entry-card {
+    background: var(--sky-light);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--sky);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .entry-card:hover {
+    transform: translateY(-3px); box-shadow: var(--shadow-md);
+  }
+  .entry-top {
+    display: flex; justify-content: space-between;
+    align-items: flex-start; gap: 16px; margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .entry h3 {
+    font-size: 1.15rem; font-weight: 700;
+    color: var(--blue-deep); letter-spacing: -0.2px;
+  }
+  .entry .org {
+    color: var(--blue-primary); font-size: .95rem; margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .entry .period {
+    font-size: .78rem; font-weight: 700;
+    color: var(--blue-deep); background: rgba(79,195,247,.22);
+    padding: 5px 12px; border-radius: 20px;
+    white-space: nowrap;
+  }
+  .entry ul { list-style: none; }
+  .entry ul li {
+    position: relative; padding-left: 20px;
+    font-size: .93rem; color: var(--text);
+    margin-bottom: 8px; line-height: 1.7;
+  }
+  .entry ul li::before {
+    content: ''; position: absolute;
+    left: 0; top: 10px; width: 6px; height: 6px;
+    background: var(--sky); border-radius: 50%;
+  }
+  .entry ul li strong { color: var(--blue-deep); font-weight: 600; }
+
+  .highlight-banner {
+    max-width: 900px; margin: 0 auto 40px;
+    background: linear-gradient(120deg, var(--blue-primary), var(--sky));
+    color: #fff; border-radius: var(--radius);
+    padding: 26px 32px;
+    display: flex; align-items: center; gap: 22px;
+    box-shadow: var(--shadow-md);
+  }
+  .highlight-banner .hb-icon {
+    flex-shrink: 0;
+    width: 56px; height: 56px; border-radius: 12px;
+    background: rgba(255,255,255,.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem;
+  }
+  .highlight-banner h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem; margin-bottom: 4px;
+  }
+  .highlight-banner p {
+    font-size: .92rem; color: rgba(255,255,255,.92); line-height: 1.6;
+  }
+
+  .skills-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px;
+  }
+  .skill-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 30px 28px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .skill-card:hover {
+    transform: translateY(-4px); box-shadow: var(--shadow-md);
+  }
+  .skill-card .head {
+    display: flex; align-items: center; gap: 12px;
+    padding-bottom: 16px; margin-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .skill-card .head .ico {
+    width: 38px; height: 38px; border-radius: 8px;
+    background: linear-gradient(140deg, var(--blue-primary), var(--sky));
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.05rem;
+  }
+  .skill-card h4 {
+    font-size: 1rem; font-weight: 700;
+    color: var(--blue-deep); letter-spacing: -0.2px;
+  }
+  .skill-item { margin-bottom: 16px; }
+  .skill-item:last-child { margin-bottom: 0; }
+  .skill-row {
+    display: flex; justify-content: space-between;
+    font-size: .87rem; margin-bottom: 7px;
+  }
+  .skill-row .name { color: var(--text); font-weight: 500; }
+  .skill-row .pct { color: var(--muted); font-weight: 600; font-size: .8rem; }
+  .bar {
+    height: 5px; background: var(--line); border-radius: 3px; overflow: hidden;
+  }
+  .bar span {
+    display: block; height: 100%; width: 0;
+    background: linear-gradient(90deg, var(--blue-primary), var(--sky));
+    border-radius: 3px;
+    transition: width 1.4s cubic-bezier(.25,.8,.35,1);
+  }
+
+  .tools-strip {
+    margin-top: 46px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 30px 34px;
+    box-shadow: var(--shadow-sm);
+  }
+  .tools-strip h4 {
+    font-size: .95rem; font-weight: 700; color: var(--blue-deep);
+    letter-spacing: .4px; margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .tool-chips {
+    display: flex; flex-wrap: wrap; gap: 12px;
+  }
+  .chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 18px; border-radius: 24px;
+    background: var(--sky-soft);
+    color: var(--blue-primary);
+    font-size: .85rem; font-weight: 600;
+    border: 1px solid rgba(30,136,229,.25);
+    transition: all .25s ease;
+  }
+  .chip:hover {
+    background: var(--blue-primary); color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(21,101,192,.28);
+  }
+
+  .ai-section {
+    background: linear-gradient(160deg, #0a2540 0%, #1565c0 100%);
+    color: #fff;
+    position: relative; overflow: hidden;
+  }
+  .ai-section::before {
+    content: ''; position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(79,195,247,.18) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(79,195,247,.12) 0%, transparent 45%);
+    pointer-events: none;
+  }
+  .ai-section .section-head h2 { color: #fff; }
+  .ai-section .section-head .eyebrow { color: var(--sky); }
+  .ai-section .section-head .divider {
+    background: linear-gradient(90deg, var(--sky), var(--sky-soft));
+  }
+  .ai-intro {
+    max-width: 780px; margin: -30px auto 50px;
+    text-align: center;
+    font-size: 1rem; color: rgba(255,255,255,.8);
+    line-height: 1.8;
+  }
+  .ai-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    position: relative; z-index: 2;
+  }
+  .ai-card {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: var(--radius);
+    padding: 30px 26px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all .3s ease;
+  }
+  .ai-card:hover {
+    background: rgba(255,255,255,.1);
+    border-color: var(--sky);
+    transform: translateY(-4px);
+  }
+  .ai-card .ai-ico {
+    width: 50px; height: 50px; border-radius: 12px;
+    background: linear-gradient(140deg, var(--sky), #81d4fa);
+    color: var(--blue-deep);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+  }
+  .ai-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.08rem; font-weight: 700;
+    color: #fff; margin-bottom: 10px;
+  }
+  .ai-card p {
+    font-size: .9rem; color: rgba(255,255,255,.78);
+    line-height: 1.75;
+  }
+  .ai-card p strong { color: var(--sky); font-weight: 600; }
+
+  .education-section { background: var(--surface); }
+  .edu-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px;
+  }
+  .edu-card {
+    background: var(--sky-light);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    position: relative; overflow: hidden;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  }
+  .edu-card::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; width: 100%; height: 3px;
+    background: linear-gradient(90deg, var(--blue-primary), var(--sky));
+    transform: scaleX(0); transform-origin: left;
+    transition: transform .35s ease;
+  }
+  .edu-card:hover {
+    transform: translateY(-4px); box-shadow: var(--shadow-md);
+    border-color: rgba(79,195,247,.55);
+  }
+  .edu-card:hover::before { transform: scaleX(1); }
+  .edu-card .badge {
+    display: inline-block; font-size: .72rem; font-weight: 700;
+    letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--blue-primary); margin-bottom: 14px;
+  }
+  .edu-card h3 {
+    font-size: 1.1rem; font-weight: 700;
+    color: var(--blue-deep); margin-bottom: 6px; line-height: 1.35;
+  }
+  .edu-card .inst {
+    font-size: .9rem; color: var(--blue-primary);
+    font-weight: 600; margin-bottom: 16px;
+  }
+  .edu-card .period {
+    font-size: .82rem; color: var(--blue-deep); font-weight: 700;
+    padding-top: 14px; border-top: 1px solid var(--line);
+  }
+  .edu-card p.desc {
+    font-size: .9rem; color: var(--text);
+    line-height: 1.7; margin-bottom: 14px;
+  }
+  .edu-card p.desc strong { color: var(--blue-deep); font-weight: 600; }
+
+  .certs-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px;
+  }
+  .cert-card {
+    display: flex; gap: 22px; align-items: flex-start;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 30px 28px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .cert-card:hover {
+    transform: translateY(-4px); box-shadow: var(--shadow-md);
+  }
+  .cert-icon {
+    flex-shrink: 0;
+    width: 54px; height: 54px; border-radius: 10px;
+    background: linear-gradient(140deg, var(--blue-primary), var(--sky));
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+  }
+  .cert-body h4 {
+    font-size: 1.02rem; font-weight: 700;
+    color: var(--blue-deep); margin-bottom: 6px;
+  }
+  .cert-body .issuer {
+    font-size: .85rem; color: var(--blue-primary);
+    font-weight: 600; margin-bottom: 10px;
+  }
+  .cert-body p {
+    font-size: .88rem; color: var(--muted); line-height: 1.7;
+  }
+
+  .contact-section {
+    background: linear-gradient(160deg, #0a2540 0%, #1565c0 100%);
+    color: #fff;
+  }
+  .contact-section .section-head h2 { color: #fff; }
+  .contact-section .section-head .eyebrow { color: var(--sky); }
+  .contact-section .section-head .divider {
+    background: linear-gradient(90deg, var(--sky), var(--sky-soft));
+  }
+  .contact-lead {
+    max-width: 720px; margin: -30px auto 46px; text-align: center;
+    font-size: 1rem; color: rgba(255,255,255,.8); line-height: 1.8;
+  }
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+  }
+  .contact-list a {
+    display: flex; flex-direction: column; align-items: center;
+    text-align: center; gap: 14px;
+    padding: 32px 20px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: var(--radius);
+    transition: all .28s ease;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    position: relative;
+    z-index: 6;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(79,195,247,.3);
+    user-select: none;
+    -webkit-user-select: none;
+    min-height: 44px;
+  }
+  .contact-list a:hover,
+  .contact-list a:active {
+    background: rgba(79,195,247,.16);
+    border-color: var(--sky);
+    transform: translateY(-5px);
+    box-shadow: 0 14px 32px rgba(79,195,247,.22);
+  }
+  .contact-list a.linkedin-link {
+    background: rgba(10,102,194,.22);
+    border-color: rgba(10,102,194,.45);
+  }
+  .contact-list a.linkedin-link:hover,
+  .contact-list a.linkedin-link:active {
+    background: rgba(10,102,194,.4);
+    border-color: #0a66c2;
+    box-shadow: 0 14px 32px rgba(10,102,194,.32);
+  }
+  .contact-list .ico {
+    width: 54px; height: 54px; border-radius: 50%;
+    background: linear-gradient(140deg, var(--sky), #81d4fa);
+    color: var(--blue-deep);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+  .contact-list a.linkedin-link .ico {
+    background: #0a66c2;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.15rem;
+    font-family: Arial, sans-serif;
+  }
+  .contact-list .info {
+    pointer-events: none;
+    width: 100%;
+  }
+  .contact-list .info strong {
+    display: block; font-size: .74rem; font-weight: 700;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--sky); margin-bottom: 6px;
+  }
+  .contact-list .info span {
+    font-size: .9rem; color: #fff;
+    font-weight: 500; word-break: break-word;
+  }
+
+  footer {
+    background: #081d33; color: rgba(255,255,255,.55);
+    padding: 32px 0; text-align: center;
+    font-size: .86rem;
+    border-top: 1px solid rgba(255,255,255,.06);
+  }
+  footer strong { color: var(--sky); font-weight: 600; }
+  footer .social {
+    margin-top: 14px;
+    display: flex; justify-content: center; gap: 14px;
+  }
+  footer .social a {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 14px; border-radius: 20px;
+    background: rgba(79,195,247,.12);
+    color: var(--sky); font-size: .82rem; font-weight: 600;
+    transition: all .25s ease;
+  }
+  footer .social a:hover {
+    background: var(--sky); color: var(--blue-deep);
+  }
+
+  @media (max-width: 980px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 50px; }
+    .hero h1 { font-size: 2.6rem; }
+    .profile-card { max-width: 380px; margin: 0 auto; }
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+    .skills-grid { grid-template-columns: 1fr 1fr; }
+    .ai-grid { grid-template-columns: 1fr 1fr; }
+    .edu-grid { grid-template-columns: 1fr 1fr; }
+    .certs-grid { grid-template-columns: 1fr; }
+    .contact-list { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 720px) {
+    section { padding: 72px 0; }
+    .nav-links {
+      position: fixed; top: 72px; right: -100%;
+      flex-direction: column; gap: 6px;
+      width: 240px; height: calc(100vh - 72px);
+      background: #fff; padding: 24px;
+      border-left: 1px solid var(--line);
+      transition: right .35s ease;
+      box-shadow: -10px 0 30px rgba(21,101,192,.1);
+      z-index: 999;
+    }
+    .nav-links.open { right: 0; }
+    .nav-links a { padding: 12px 0; border-bottom: 1px solid var(--line); }
+    .nav-links a::after { display: none; }
+    .nav-toggle { display: block; }
+    .hero { padding: 140px 0 90px; }
+    .hero h1 { font-size: 2.1rem; }
+    .section-head h2 { font-size: 1.75rem; }
+    .skills-grid, .edu-grid, .ai-grid, .contact-list { grid-template-columns: 1fr; }
+    .entry { padding-left: 44px; }
+    .timeline::before { left: 11px; }
+    .entry::before { left: 3px; }
+    .highlight-banner { flex-direction: column; text-align: center; }
+    .contact-list a { padding: 26px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand">Andey <span>Santosh Kumar</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#ai">AI Toolkit</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-eyebrow">MBA • HR &amp; Marketing</span>
+        <h1>Andey <span class="accent">Santosh Kumar</span></h1>
+        <p class="hero-role">HR Executive &nbsp;|&nbsp; Talent Acquisition &nbsp;|&nbsp; Digital Marketing</p>
+        <p class="hero-desc">
+          MBA graduate specialising in Human Resources &amp; Marketing with one year of
+          hands-on HR Executive experience at <strong>Mahathi Infra Services Pvt. Ltd.</strong>
+          Known for strong time management, structured work habits and a modern,
+          AI-assisted approach to HR and marketing operations.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-sky">Get in touch →</a>
+          <a href="https://www.linkedin.com/in/andey-santosh-kumar-0b8641256" target="_blank" rel="noopener" class="btn btn-linkedin">💼 LinkedIn</a>
+          <a href="#experience" class="btn btn-ghost">View experience</a>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="monogram">ASK</div>
+        <div class="name">Andey Santosh Kumar</div>
+        <div class="title">MBA (HR &amp; Marketing)</div>
+        <div class="profile-meta">
+          <a href="tel:+919666074988"><span>📞</span> +91 96660 74988</a>
+          <a href="mailto:andeysantosh88@gmail.com"><span>✉️</span> andeysantosh88@gmail.com</a>
+          <a href="https://www.linkedin.com/in/andey-santosh-kumar-0b8641256" target="_blank" rel="noopener"><span>💼</span> LinkedIn Profile</a>
+          <span><span>📍</span> India</span>
+          <span><span>🎓</span> B.Com Computers — Gowtami Degree College</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Profile</span>
+      <h2>About Me</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I am a postgraduate in <strong>Business Administration (MBA)</strong> with dual
+          specialisation in <strong>Human Resources and Marketing</strong>. My academic
+          background includes a <strong>B.Com in Computers from Gowtami Degree College</strong>,
+          giving me a solid foundation in business, accounting and technology.
+        </p>
+        <p>
+          Professionally, I have completed <strong>one year as an HR Executive at
+          Mahathi Infra Services Pvt. Ltd.</strong>, where I managed end-to-end recruitment,
+          onboarding, employee engagement and day-to-day HR operations. During my
+          undergraduate years I also completed a <strong>6-month internship in Digital Marketing</strong>,
+          which gave me practical exposure to campaigns, content and analytics.
+        </p>
+        <p>
+          My MBA academic project focused on <strong>"Customer Retention at Bharti Airtel"</strong> —
+          a study of loyalty drivers, churn factors and retention strategies in the Indian
+          telecom sector. I am now seeking an HR or HR-Marketing hybrid role where I can
+          contribute from day one.
+        </p>
+      </div>
+
+      <div class="facts">
+        <div class="fact"><span class="label">Full Name</span><span class="value">Andey Santosh Kumar</span></div>
+        <div class="fact"><span class="label">Qualification</span><span class="value">MBA — HR &amp; Marketing</span></div>
+        <div class="fact"><span class="label">Graduation</span><span class="value">B.Com Computers</span></div>
+        <div class="fact"><span class="label">Experience</span><span class="value">1 Year — HR Executive</span></div>
+        <div class="fact"><span class="label">Company</span><span class="value">Mahathi Infra Services Pvt. Ltd.</span></div>
+        <div class="fact"><span class="label">LinkedIn</span><a class="value" href="https://www.linkedin.com/in/andey-santosh-kumar-0b8641256" target="_blank" rel="noopener">View Profile →</a></div>
+        <div class="fact"><span class="label">Availability</span><span class="value">Open to Opportunities</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="experience-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Career</span>
+      <h2>Professional Experience</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="highlight-banner">
+      <div class="hb-icon">⏱️</div>
+      <div>
+        <h4>Strength Highlight — Time Management</h4>
+        <p>
+          Consistently delivered recruitment and HR operational targets within tight
+          deadlines by planning, prioritising and tracking tasks. Known for balancing
+          multiple hiring pipelines, onboarding schedules and employee queries without
+          compromising quality or turnaround time.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline">
+
+      <article class="entry">
+        <div class="entry-card">
+          <div class="entry-top">
+            <div>
+              <h3>HR Executive</h3>
+              <div class="org">Mahathi Infra Services Pvt. Ltd.</div>
+            </div>
+            <span class="period">1 Year</span>
+          </div>
+          <ul>
+            <li>Managed end-to-end recruitment — sourcing, screening, scheduling interviews and coordinating offers.</li>
+            <li>Conducted onboarding and induction sessions for new joiners, ensuring smooth cultural integration.</li>
+            <li>Maintained HR records, attendance, leave data and supported monthly payroll inputs.</li>
+            <li>Planned and executed employee engagement initiatives to improve morale and retention.</li>
+            <li>Acted as first point of contact for employee queries and grievance redressal.</li>
+            <li>Supported performance appraisal cycles and implementation of HR policies.</li>
+            <li><strong>Applied strong time management</strong> — managed multiple hiring pipelines and daily HR tasks in parallel, meeting all deadlines.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-card">
+          <div class="entry-top">
+            <div>
+              <h3>Digital Marketing Intern</h3>
+              <div class="org">Internship — During B.Com</div>
+            </div>
+            <span class="period">6 Months</span>
+          </div>
+          <ul>
+            <li>Assisted in planning and executing social media campaigns across key platforms.</li>
+            <li>Performed keyword research and supported on-page SEO optimisation tasks.</li>
+            <li>Tracked campaign performance metrics and prepared basic analytics reports.</li>
+            <li>Contributed content ideas and creatives for brand awareness activities.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Capabilities</span>
+      <h2>Core Skills</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="head">
+          <div class="ico">👥</div>
+          <h4>Human Resources</h4>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Talent Acquisition</span><span class="pct">90%</span></div>
+          <div class="bar"><span data-w="90%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Onboarding &amp; Induction</span><span class="pct">88%</span></div>
+          <div class="bar"><span data-w="88%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">HR Operations &amp; Payroll</span><span class="pct">85%</span></div>
+          <div class="bar"><span data-w="85%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Employee Engagement</span><span class="pct">90%</span></div>
+          <div class="bar"><span data-w="90%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="head">
+          <div class="ico">📈</div>
+          <h4>Marketing</h4>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Digital Marketing</span><span class="pct">85%</span></div>
+          <div class="bar"><span data-w="85%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Market Research</span><span class="pct">88%</span></div>
+          <div class="bar"><span data-w="88%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Social Media Marketing</span><span class="pct">85%</span></div>
+          <div class="bar"><span data-w="85%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Customer Retention Strategy</span><span class="pct">87%</span></div>
+          <div class="bar"><span data-w="87%"></span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="head">
+          <div class="ico">⭐</div>
+          <h4>Professional Strengths</h4>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Time Management</span><span class="pct">95%</span></div>
+          <div class="bar"><span data-w="95%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Communication</span><span class="pct">95%</span></div>
+          <div class="bar"><span data-w="95%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Teamwork &amp; Leadership</span><span class="pct">90%</span></div>
+          <div class="bar"><span data-w="90%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="name">Multitasking &amp; Prioritisation</span><span class="pct">92%</span></div>
+          <div class="bar"><span data-w="92%"></span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tools-strip">
+      <h4>Tools I Work With</h4>
+      <div class="tool-chips">
+        <span class="chip">📊 MS Excel</span>
+        <span class="chip">📄 MS Office</span>
+        <span class="chip">🗂️ Manpower Point</span>
+        <span class="chip">📝 MS Word</span>
+        <span class="chip">📽️ MS PowerPoint</span>
+        <span class="chip">📧 Outlook</span>
+        <span class="chip">📱 Google Workspace</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="ai" class="ai-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Modern Workflow</span>
+      <h2>How I Use AI</h2>
+      <div class="divider"></div>
+    </div>
+
+    <p class="ai-intro">
+      I actively integrate AI tools into my daily HR and marketing workflow — saving
+      time, improving accuracy and letting me focus on the human side of work. Below
+      are the practical ways I use AI on the job.
+    </p>
+
+    <div class="ai-grid">
+
+      <article class="ai-card">
+        <div class="ai-ico">📝</div>
+        <h4>Job Descriptions &amp; Postings</h4>
+        <p>
+          I use AI assistants such as <strong>ChatGPT</strong> and <strong>Gemini</strong>
+          to draft clear, inclusive job descriptions and optimise postings for
+          job boards — cutting JD-writing time from hours to minutes.
+        </p>
+      </article>
+
+      <article class="ai-card">
+        <div class="ai-ico">🔍</div>
+        <h4>Resume Screening &amp; Shortlisting</h4>
+        <p>
+          I use AI-based matching features inside ATS platforms and AI summarisers to
+          quickly filter large applicant pools, extract key skills and shortlist
+          candidates that fit the role — improving screening speed and consistency.
+        </p>
+      </article>
+
+      <article class="ai-card">
+        <div class="ai-ico">💬</div>
+        <h4>Interview Preparation</h4>
+        <p>
+          I generate role-specific interview questions, structured evaluation sheets
+          and scorecards with AI — ensuring every interview is fair, consistent and
+          aligned to the job requirements.
+        </p>
+      </article>
+
+      <article class="ai-card">
+        <div class="ai-ico">📊</div>
+        <h4>HR Reports &amp; Excel Automation</h4>
+        <p>
+          I combine <strong>MS Excel</strong> with AI assistance to build attendance
+          trackers, attrition summaries and manpower reports faster — using formulas
+          suggested by AI and validating data patterns automatically.
+        </p>
+      </article>
+
+      <article class="ai-card">
+        <div class="ai-ico">🎯</div>
+        <h4>Marketing Content &amp; Campaigns</h4>
+        <p>
+          From my digital marketing background, I use AI tools like
+          <strong>Canva AI</strong> and <strong>ChatGPT</strong> to draft social posts,
+          ad copy and email sequences — then refine them for the brand voice.
+        </p>
+      </article>
+
+      <article class="ai-card">
+        <div class="ai-ico">📅</div>
+        <h4>Time Management &amp; Prioritisation</h4>
+        <p>
+          AI-powered planners and task assistants help me schedule recruitment
+          pipelines, reminders and follow-ups — reinforcing my core strength of
+          <strong>time management</strong> and ensuring nothing slips.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="education" class="education-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Academics</span>
+      <h2>Education</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="edu-grid">
+
+      <article class="edu-card">
+        <span class="badge">Postgraduate</span>
+        <h3>Master of Business Administration (MBA)</h3>
+        <div class="inst">Specialisation: HR &amp; Marketing</div>
+        <p class="desc">
+          Academic project: <strong>"Customer Retention — A Study on Bharti Airtel"</strong>,
+          analysing churn drivers and loyalty strategies in the telecom sector.
+        </p>
+        <div class="period">Master's Degree</div>
+      </article>
+
+      <article class="edu-card">
+        <span class="badge">Undergraduate</span>
+        <h3>B.Com in Computers</h3>
+        <div class="inst">Gowtami Degree College</div>
+        <p class="desc">
+          Built a strong foundation in accounting, business management and computer
+          applications. Completed a <strong>6-month Digital Marketing internship</strong>
+          during this period.
+        </p>
+        <div class="period">Bachelor's Degree</div>
+      </article>
+
+      <article class="edu-card">
+        <span class="badge">Academic Project</span>
+        <h3>Customer Retention — Bharti Airtel</h3>
+        <div class="inst">MBA Final Project</div>
+        <p class="desc">
+          Researched customer loyalty patterns, churn factors and retention practices at
+          Bharti Airtel. Delivered actionable recommendations for improving subscriber
+          lifetime value.
+        </p>
+        <div class="period">MBA Project</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Credentials</span>
+      <h2>Certifications</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="certs-grid">
+
+      <article class="cert-card">
+        <div class="cert-icon">📊</div>
+        <div class="cert-body">
+          <h4>Digital Marketing Certification</h4>
+          <div class="issuer">Completed alongside a 6-month internship</div>
+          <p>
+            Covered SEO fundamentals, social media marketing, paid campaigns, content
+            strategy and performance analytics — applied in a real internship setting
+            during the undergraduate programme.
+          </p>
+        </div>
+      </article>
+
+      <article class="cert-card">
+        <div class="cert-icon">🎯</div>
+        <div class="cert-body">
+          <h4>Customer Retention — Bharti Airtel</h4>
+          <div class="issuer">MBA Academic Project Certification</div>
+          <p>
+            Certified academic research project on customer retention strategies at
+            Bharti Airtel — analysing loyalty drivers, churn behaviour and retention
+            frameworks in the Indian telecom industry.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's Connect</h2>
+      <div class="divider"></div>
+    </div>
+
+    <p class="contact-lead">
+      I am actively looking for opportunities in Human Resources, Talent Acquisition
+      and HR-Marketing roles. Feel free to reach out — I'll reply within 24 hours.
+    </p>
+
+    <div class="contact-list">
+      <a href="tel:+919666074988" aria-label="Call Andey Santosh Kumar">
+        <div class="ico">📞</div>
+        <div class="info">
+          <strong>Mobile</strong>
+          <span>+91 96660 74988</span>
+        </div>
+      </a>
+      <a href="mailto:andeysantosh88@gmail.com" aria-label="Email Andey Santosh Kumar">
+        <div class="ico">✉️</div>
+        <div class="info">
+          <strong>Email</strong>
+          <span>andeysantosh88@gmail.com</span>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/andey-santosh-kumar-0b8641256" target="_blank" rel="noopener" class="linkedin-link" aria-label="LinkedIn Profile">
+        <div class="ico">in</div>
+        <div class="info">
+          <strong>LinkedIn</strong>
+          <span>andey-santosh-kumar</span>
+        </div>
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=India" target="_blank" rel="noopener" aria-label="Location">
+        <div class="ico">📍</div>
+        <div class="info">
+          <strong>Location</strong>
+          <span>India</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © <span id="yr"></span> <strong>Andey Santosh Kumar</strong> — MBA (HR &amp; Marketing). All rights reserved.
+    <div class="social">
+      <a href="https://www.linkedin.com/in/andey-santosh-kumar-0b8641256" target="_blank" rel="noopener">💼 LinkedIn</a>
+      <a href="mailto:andeysantosh88@gmail.com">✉️ Email</a>
+      <a href="tel:+919666074988">📞 Call</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 12);
+  }, { passive: true });
+
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => navLinks.classList.remove('open'))
+  );
+
+  const skillObserver = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.bar span').forEach(bar => {
+          bar.style.width = bar.dataset.w;
+        });
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.35 });
+  document.querySelectorAll('.skill-card').forEach(c => skillObserver.observe(c));
+
+  /* Robust tap handler — ensures all links work on mobile taps */
+  document.querySelectorAll('.contact-list a, .profile-meta a, .btn, footer .social a').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      if (!href || href.startsWith('#')) return;
+      // Let browser handle external links natively; force navigation for tel/mailto
+      if (href.startsWith('http')) return;
+      e.preventDefault();
+      window.location.href = href;
+    });
+  });
+</script>
+</body>
+</html>
